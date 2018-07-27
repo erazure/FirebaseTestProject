@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		0305C50D210A7008005A4AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305C50C210A7008005A4AA4 /* AppDelegate.swift */; };
 		0305C50F210A7008005A4AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0305C50E210A7008005A4AA4 /* ViewController.swift */; };
-		0305C512210A7008005A4AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0305C510210A7008005A4AA4 /* Main.storyboard */; };
 		0305C514210A700A005A4AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0305C513210A700A005A4AA4 /* Assets.xcassets */; };
 		0305C517210A700A005A4AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0305C515210A700A005A4AA4 /* LaunchScreen.storyboard */; };
+		0305C51F210A7052005A4AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0305C51E210A7052005A4AA4 /* Main.storyboard */; };
+		0305C521210A7078005A4AA4 /* coffee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0305C520210A7077005A4AA4 /* coffee.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0305C509210A7008005A4AA4 /* CoffeeRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0305C50C210A7008005A4AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0305C50E210A7008005A4AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0305C511210A7008005A4AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0305C513210A700A005A4AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0305C516210A700A005A4AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0305C518210A700A005A4AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0305C51E210A7052005A4AA4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0305C520210A7077005A4AA4 /* coffee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			children = (
 				0305C50C210A7008005A4AA4 /* AppDelegate.swift */,
 				0305C50E210A7008005A4AA4 /* ViewController.swift */,
-				0305C510210A7008005A4AA4 /* Main.storyboard */,
+				0305C51E210A7052005A4AA4 /* Main.storyboard */,
 				0305C513210A700A005A4AA4 /* Assets.xcassets */,
+				0305C520210A7077005A4AA4 /* coffee.jpeg */,
 				0305C515210A700A005A4AA4 /* LaunchScreen.storyboard */,
 				0305C518210A700A005A4AA4 /* Info.plist */,
 			);
@@ -124,7 +127,8 @@
 			files = (
 				0305C517210A700A005A4AA4 /* LaunchScreen.storyboard in Resources */,
 				0305C514210A700A005A4AA4 /* Assets.xcassets in Resources */,
-				0305C512210A7008005A4AA4 /* Main.storyboard in Resources */,
+				0305C521210A7078005A4AA4 /* coffee.jpeg in Resources */,
+				0305C51F210A7052005A4AA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0305C510210A7008005A4AA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0305C511210A7008005A4AA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0305C515210A700A005A4AA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
