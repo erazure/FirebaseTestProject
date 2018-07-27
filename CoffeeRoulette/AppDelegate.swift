@@ -7,16 +7,32 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var ref : DatabaseReference!
+    var usersReference : DatabaseReference!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+
+        if UserDefaults.standard.object(forKey: "user") == nil {
+            ref = Database.database().reference()
+            usersReference = ref.child("users")
+            let generatedRef = ref.child("users").childByAutoId()
+            generatedRef.setValue("user1")
+            UserDefaults.standard.set("USER23", forKey: "user")
+        }
+        
         return true
+            
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
