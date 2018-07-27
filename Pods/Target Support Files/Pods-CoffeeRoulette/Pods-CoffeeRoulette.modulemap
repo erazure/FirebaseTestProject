@@ -1,0 +1,6 @@
+framework module Pods_CoffeeRoulette {
+  umbrella header "Pods-CoffeeRoulette-umbrella.h"
+
+  export *
+  module * { export * }
+}
